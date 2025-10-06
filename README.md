@@ -4,7 +4,7 @@ Companion repository for the (under review) paper CVSM: Contrastive Vocal Simila
 
 # Preliminaries
 
-To execute the code hosted in the current git repo, you need a ```python 3.10``` environment. The models were trained on ```tensorflow-gpu 2.8.1```, while ```librosa 0.9.2``` was used for audio excerpt pre-processing. For obtaining vocal source excerpts, an off-the-shelf source separation model is also required; in our implementation, we used open-unmix.
+To execute the code hosted in the current git repo, you need a ```python 3.10``` environment. The models were trained on ```tensorflow-gpu 2.8.1```, while ```librosa 0.9.2``` was used for audio excerpt pre-processing. For obtaining vocal source excerpts, an off-the-shelf source separation model is also required; in our implementation, we used [open-unmix](https://github.com/sigsep/open-unmix-pytorch).
 
 You can adapt the given code to any musical audio dataset with artist metadata, but for off-the-shelf pre-training, and to be able to reproduce the paper results, use the Music4All dataset; it is avaiable [upon request](https://sites.google.com/view/contact4music4all).
 
