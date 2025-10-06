@@ -34,6 +34,8 @@ You can structure your config file similar to those contained in the ```configs`
 
 We provide scripts for evaluating the pre-trained models in the following downstream tasks:
 
-* Gender Identification ()
-* Artist Identification ()
-* Artist Similarity ()
+* Gender Identification (```gender_id_testing.py```)
+  
+* Artist Identification (```artist_id_testing.py```)
+  
+* Artist Similarity (```artist_sim_testing.py```)
