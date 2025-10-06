@@ -1,6 +1,6 @@
 # CVSM: Contrastive Vocal Similarity Modeling
 
-Companion repository for the (under review) paper CVSM: Contrastive Vocal Similarity Modeling, available on arxiv.
+Companion repository for the (under review) paper CVSM: Contrastive Vocal Similarity Modeling, available on [arxiv](https://arxiv.org/pdf/2510.03025).
 
 # Preliminaries
 
