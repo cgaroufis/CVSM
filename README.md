@@ -10,6 +10,10 @@ You can adapt the given code to any musical audio dataset with artist metadata, 
 
 # Data pre-processing
 
+The audio files in Music4All are provided in ```.mp3``` format; run the ```./get_wavs.sh``` script to transform them to ```.wav``` files, followed by the ```./downsample_wavs.sh``` script to downsample them to 16 kHz.
+
+To obtain the vocal stems, run the ```./get_stems.sh``` script on the transformed ```.wav``` files; the script also includes downsampling at 16kHz.
+
 # Model pre-training
 
 To pre-train a CVSM model, you can execute:
