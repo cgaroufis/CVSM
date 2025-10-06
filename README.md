@@ -19,8 +19,11 @@ To pre-train a CVSM model, you can execute:
 You can structure your config file similar to those contained in the ```configs``` subfolder, which contain the following properties:
 
 ```augment```: Whether artificial vocal-accompaniment mixtures are created as anchor instances.
+
 ```artist```: Whether sampling occurs at artist level
+
 ```sources```: Is either ```None``` (for mixture-mixture pre-training) or ```vocals``` (for mixture-vocal pre-training)
+
 ```finetune```: Path to the model to fine-tune/continue training; if trained from scratch, set to ```None```.
 
 # Model evaluation
