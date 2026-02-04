@@ -4,7 +4,7 @@ Companion repository for the (under review) paper CVSM: Contrastive Vocal Simila
 
 # Preliminaries
 
-To execute the code hosted in the current git repo, you need a ```python 3.10``` environment. The models were trained on ```tensorflow-gpu 2.8.1```, while ```librosa 0.9.2``` was used for audio excerpt pre-processing. For obtaining vocal source excerpts, an off-the-shelf source separation model is also required; in our implementation, we experimented with both [open-unmix](https://github.com/sigsep/open-unmix-pytorch) (for which we are currently providing pre-processing scripts) and [ht-demucs](https://github.com/facebookresearch/demucs)).
+To execute the code hosted in the current git repo, you need a ```python 3.10``` environment. The models were trained on ```tensorflow-gpu 2.8.1```, while ```librosa 0.9.2``` was used for audio excerpt pre-processing. For obtaining vocal source excerpts, an off-the-shelf source separation model is also required; in our implementation, we experimented with both [open-unmix](https://github.com/sigsep/open-unmix-pytorch) (for which we are currently providing pre-processing scripts) and [ht-demucs](https://github.com/facebookresearch/demucs).
 
 You can adapt the given code to any musical audio dataset with artist metadata, but for off-the-shelf pre-training, and to be able to reproduce the paper results, use the Music4All dataset; it is avaiable [upon request](https://sites.google.com/view/contact4music4all).
 
@@ -32,7 +32,7 @@ You can structure your config file similar to those contained in the ```configs`
 
 # Pre-Trained Model Weights
 
-If you wish to skip the training procedure and delve directly into using the models, we also make available model weights for various training configurations in the ```models''' folder, named following the naming convention followed in the [paper](https://arxiv.org/pdf/2510.03025). For best performance, we recommend using the weights in the ```m4all_cvsm_art''' folder, pre-trained via HT-DeMucs-obtained vocal tags.
+If you wish to skip the training procedure and delve directly into using the models, we also make available model weights for various training configurations in the ```models``` folder, named following the naming convention followed in the [paper](https://arxiv.org/pdf/2510.03025). For best performance, we recommend using the weights in the ```m4all_cvsm_art``` folder, pre-trained via HT-DeMucs-obtained vocal tags.
 
 # Model evaluation
 
