@@ -44,4 +44,4 @@ We provide scripts for evaluating the pre-trained models in the following downst
   
 * Artist Similarity (```artist_sim_testing.py```)
 
-You can run these scripts either on your own trained models, or pre-trained models, trained under different protocols, available on the ```models''' subfolder.
+You can run these scripts either on your own trained models, or the provided pre-trained models.
